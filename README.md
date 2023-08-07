@@ -1,5 +1,5 @@
 ## Water Intake Tracker App
-This web application was made for the CFG Introduction To JavaScript course. The topic assigned to me was 'Health' and I created a water intake web application to reflect the nature of the topic.
+This web application was made for the CFG Introduction To JavaScript course. The topic assigned to me was 'Health' and I created a water intake tracker web application to reflect the nature of the topic.
 
 ## Features
 * Add glasses of water
