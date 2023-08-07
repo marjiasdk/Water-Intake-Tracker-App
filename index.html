@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Intake Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- class water-effect is used to add the ripple effect in the background-->
+    <div class="water-effect"></div>
+    <!-- white container -->
+    <div class="container">
+        <img src="https://media.tenor.com/rX7mEsN3hToAAAAM/water-lww.gif" alt="water" class="water">
+        <h1>Water Intake Tracker</h1>
+        <p>Click the button below to add a glass of water:</p>
+        <!-- two buttons side by side -->
+        <button id="addWaterBtn">Add Water</button>
+        <button id="resetBtn">Reset</button>
+        <p>Total Glasses of Water: <span id="totalWater">0</span></p>
+        <label for="waterGoal">Daily Water Goal (in glasses): </label>
+        <!-- number of glasses, minimum is 1-->
+        <input type="number" id="waterGoal" min="1" value="8">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <!-- this message shows up when the daily water goal is reached-->
+        <p id="goalReachedMessage"></p>
+        <ul id="waterIntakeList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
