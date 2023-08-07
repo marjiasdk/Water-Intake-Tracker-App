@@ -12,5 +12,9 @@ This web application was made for the CFG Introduction To JavaScript course. The
 * Progress bar to see how far along the user is in reaching their goal.
 * Reset the list of times when water was consumed.
 
+## Demo Video
+
+https://github.com/marjiasdk/Water-Intake-Tracker-App/assets/113689930/2d19dbf6-bcfe-4d71-808d-fca58d7fa012
+
 ## License
 This repository is licensed under the MIT License. See the LICENSE file for more information.
